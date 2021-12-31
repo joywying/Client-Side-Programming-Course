@@ -1,6 +1,6 @@
 # Client-Side-Programming
 
-Projects created in 2020 for a client-side internet technologies course. 
+Projects created in 2020 for a client-side internet technologies course. Open projects with html files.
 
 # caroptions - Car Configuration Project
 Allows users to configure a car and view the total price.
