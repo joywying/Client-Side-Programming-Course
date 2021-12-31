@@ -1,0 +1,109 @@
+
+body{
+    display: grid;
+    grid-template-columns: 450px 400px;
+    font-family: sans-serif;
+} 
+
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    
+}
+
+h1{
+    font-family: sans-serif;
+    grid-column: 1 /3;
+}
+
+th{
+    border-left: solid white;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+#displayTable tr:nth-child(odd){
+    background-color: #EEE;
+}
+
+#displayTable td{
+    border: 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 8px;
+
+
+}
+
+#displayTable table{
+    border-bottom: 1px solid black;
+}
+
+#displayTable{
+    float: left;
+    margin-right: 30px;
+    width: 420px;
+    grid-column: 1 / 2;
+}
+
+#displayTable td{
+    width: 100px;
+}
+
+#searchCriteria td.radioButtons{
+    padding: 8px;
+    text-align: center;
+}
+
+#searchCriteria table{
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+#searchCriteria{
+    grid-column: 2 / 3;
+}
+
+#searchCriteria .searchBorder{
+    border: 1px solid;
+}
+
+label{
+    white-space: pre-wrap;
+}
+
+.smallText{
+    font-size: 9pt;
+}
+
+#maxTuition{
+    height: 20px;
+    margin-left: 11px;
+    width: 110px;
+    
+}
+
+#minLowSAT{
+    height: 20px;
+    margin-left: 5px;
+    width: 110px;
+    
+}
+
+#maxHighSAT{
+    height: 20px;
+    width: 110px;
+}
+
+button{
+    margin-top: 10px;
+    width: 80px;
+
+}
+
+
+
+
+

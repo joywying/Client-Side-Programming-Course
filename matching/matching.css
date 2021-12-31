@@ -1,0 +1,62 @@
+body{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 300px 100px;
+    font-family: sans-serif;
+} 
+
+#buttonDiv{
+    grid-row: 2/3;
+}
+#one{
+    grid-column: 1 /2;
+}
+
+#two{
+    grid-column: 2/3;
+}
+
+#three{
+    grid-column: 3/4;
+}
+
+#four{
+    grid-column: 4/5;
+}
+
+#five{
+    grid-column: 5/6;
+}
+
+#six{
+    grid-column: 6/7;
+}
+
+.front{
+    visibility: hidden;
+    position: absolute;
+
+}
+
+.back{
+    visibility: visible;
+    position: absolute;
+
+}
+
+.cards.flipped .front{
+    visibility: visible;
+}
+
+.cards.remove .front{
+    visibility: hidden;
+}
+
+.cards.remove .back{
+    visibility: hidden;
+}
+
+button{
+    padding: 5px;
+}

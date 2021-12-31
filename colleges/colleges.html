@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="colleges.css">
+<script src="colleges.js" defer></script>
+<title>Bay Area Colleges and Universities</title>
+</head>
+<body>
+    <h1>Bay Area Colleges and Universities</h1>
+    <div id="displayTable">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>SAT High</th>
+                <th>SAT Low</th>
+                <th>Tuition</th>
+            </tr>
+            <tr>
+                <td>Stanford</td>
+                <td>1570</td>
+                <td>1380</td>
+                <td>44757</td>
+            </tr>
+            <tr>
+                <td>UC Berkeley</td>
+                <td>1500</td>
+                <td>1250</td>
+                <td>13844</td>
+            </tr>
+            <tr>
+                <td>UC Santa Cruz</td>
+                <td>1280</td>
+                <td>1000</td>
+                <td>13398</td>
+            </tr>
+            <tr>
+                <td>SFSU</td>
+                <td>1110</td>
+                <td>880</td>
+                <td>6468</td>
+            </tr>
+            <tr>
+                <td>SJSU</td>
+                <td>1160</td>
+                <td>880</td>
+                <td>9496</td>
+            </tr>
+            <tr>
+                <td>Sonoma State</td>
+                <td>1090</td>
+                <td>880</td>
+                <td>7276</td>
+            </tr>
+            <tr>
+                <td>CalState East Bay</td>
+                <td>1010</td>
+                <td>800</td>
+                <td>6550</td>
+            </tr>
+            <tr>
+                <td>USF</td>
+                <td>1270</td>
+                <td>1070</td>
+                <td>41450</td>
+            </tr>
+            <tr>
+                <td>SCU</td>
+                <td>1380</td>
+                <td>1190</td>
+                <td>43812</td>
+            </tr>
+            <tr>
+                <td>Mills College</td>
+                <td>1250</td>
+                <td>1040</td>
+                <td>42918</td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div id="searchCriteria" >
+        <table class="searchBorder" >
+            <tr>
+                <th>
+                    Search Criteria
+                </th>
+            </tr>
+            <tr>
+                <td class="radioButtons"><label><input type="radio" value="public" name="radioCriteria"/>Public</label>
+                <label><input type="radio" value="private" name="radioCriteria"/>Private</label>
+                <label><input type="radio" value="dc" name="radioCriteria" checked/>Don't Care</label></td>
+               
+            </tr> 
+            <tr>
+                <td>
+                <table>
+                 
+                <tr>
+                    <td><label>Maximum Tuition 
+<span class="smallText">leave blank for don't care</span></label>
+               </td>
+               <td><input type="text" id="maxTuition"></td>
+            </tr>
+                </table>
+            </td>
+           
+            </tr>
+
+            <tr>
+                <td>
+                <table>
+                <tr>
+                <td><label>Maximum High SAT
+<span class="smallText">leave blank for don't care</span></label>
+               </td>
+               <td><input type="text" id="maxHighSAT"></td>
+               </tr>
+                </table>
+            </td>
+            </tr>
+           
+            <tr>
+                <td>
+
+                <table>
+                    <tr>
+                  
+                <td><label>Minimum Low SAT
+<span class="smallText">leave blank for don't care</span></label>
+               </td>
+               <td><input type="text" id="minLowSAT"></td>
+            </tr>
+                </table>
+            </td>
+            </tr>
+           
+
+        </table>
+
+        <button type="button" id="updateButton" >Update</button>
+    </div>
+</body>
+</html>
