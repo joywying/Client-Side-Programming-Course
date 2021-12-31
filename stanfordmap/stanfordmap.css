@@ -1,0 +1,59 @@
+body{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    font-family: sans-serif;
+} 
+
+#zoomButtons{
+    grid-column: 2/3;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: right;
+}
+
+button{
+    width: 25px;
+    height: 21px;
+    user-select: none;
+}
+
+#rosette{
+    grid-column: 2/3;
+
+}
+
+
+#upAndDown, #upAndDown2{
+    margin-left: 94px;
+}
+
+table{
+    margin-top: 10px;
+
+}
+
+#leftButton{
+    margin-left: 65px;
+}
+
+
+#frame{
+    grid-column: 1/2;
+    overflow: hidden;
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    border: 20px;
+    border-color: grey;
+    border-style: solid;
+    left: 50px;
+    top: 50px;
+  
+   
+}
+
+#map{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
