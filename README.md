@@ -2,7 +2,7 @@
 
 Projects created in 2020 for a client-side internet technologies course. Open projects with html files.
 
-# caroptions - Car Configuration Project
+# caroptions 
 Allows users to configure a car and view the total price.
 
 # colleges 
