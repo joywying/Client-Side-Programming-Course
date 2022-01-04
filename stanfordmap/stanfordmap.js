@@ -131,42 +131,31 @@ function zoomIn(){
   
 
     var leftOff = map.offsetLeft;
-    console.log(leftOff);
     
     var topOff = map.offsetTop;
-    console.log(topOff);
     
     var height = document.getElementById("frame").style.height;
-    console.log(height);
     var width = document.getElementById("frame").style.width;
-    console.log(width);
 
     var centerY = (parseFloat(height.substring(0, height.length -2 ))+20) / 2;
-    console.log(centerY);
     var centerX = (parseFloat(width.substring(0, width.length -2 ))+20) / 2;
-    console.log(centerX);
     var imgCx = centerX - leftOff;
-    console.log(imgCx);
    
  
     var imgCy = centerY - topOff;
     console.log(imgCy);
    
     var imgPx = imgCx / photoWidths[photoIndex];
-    console.log(imgPx + "IMGPX");
     var imgPy = imgCy / photoHeights[photoIndex];
-    console.log(imgPy + "IMGPY");
 
     photoIndex = Math.min(3, photoIndex+1); //change
     map.src = photoSources[photoIndex];
    
 
     var style = ((imgPx * photoWidths[photoIndex]) - centerX)* -1;
-    console.log(style);
     map.style.left = style + "px";
 
     style = ((imgPy * photoHeights[photoIndex]) - centerY)* -1;
-    console.log(style);
     map.style.top = style + "px";
 
 
