@@ -1,0 +1,86 @@
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 120px 25px;
+    font-family: sans-serif;
+} 
+
+
+#inputArea{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#tabs{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#heading{
+    background-color: red;
+    visibility: visible;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    border: solid black;
+    border-width: 4px;
+    padding: 5px;
+}
+
+#clearButton{
+    grid-row: 3/4;
+}
+
+#formArea{
+    grid-column: 2/3;
+    grid-row-start: 1;
+    font-family: sans-serif;
+
+}
+#text{
+    background-color: green;
+    visibility: visible;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    border: solid white;
+    border-width: 4px;
+    padding: 5px;
+}
+
+#addButton{
+    background-color: blue;
+    visibility: visible;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    border: solid white;
+    border-width: 4px;
+    padding: 5px;
+}
+
+#headingBox{
+    position: absolute;
+    visibility: visible;
+    border: solid black;
+    border-width: 2px;
+    padding: 10px;
+}
+
+#textBox{
+    position:absolute;
+    visibility: hidden;
+    border: solid black;
+    border-width: 2px;
+    padding: 10px;
+}
+
+#buttonBox{
+    position:absolute;
+    visibility: hidden;
+    border: solid black;
+    border-width: 2px;
+    padding: 10px;
+}
+
+

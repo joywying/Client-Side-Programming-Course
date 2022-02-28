@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-columns: 300px 100px;
+    grid-template-rows: 240px 50px;
+    font-family: sans-serif;
+    user-select: none;
+} 
+
+#dorm{
+    grid-column: 1/2;
+    border: solid black;
+    border-width: 5px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#buttons{
+    grid-row: 2/3;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+img{
+    position: absolute;
+    user-select: none;
+}
+
+h5{
+    position: absolute;
+    user-select: none;
+}
+

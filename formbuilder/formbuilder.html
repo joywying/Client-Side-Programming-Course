@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="formbuilder.css">
+<script src="formbuilder.js" defer></script>
+<title>Form Builder(test in Chrome)</title>
+</head>
+<body>
+    <div id="tabs">
+        <h1>Form Builder</h1>
+        <table>
+            <tr>
+                <td><div id="heading">
+                    Heading
+                </div></td>
+                <td><div id = "text">
+                    Text Edit
+                </div></td>
+                <td><div id="addButton">
+                    Button
+                </div></td>
+            </tr>
+        </table>
+        
+        
+        
+    </div>
+    <div id="inputArea">
+        <div id="headingBox">
+            
+              
+        <form>
+        <label for="headingTitle">Heading Title:</label>
+            <input type="text" id="headingTitle"><br/>
+        <input type="checkbox" id="italicized">
+            <label for="italicized">Italicized</label><br/>
+            <button type="button" name="addHeadingButton">Add Heading</button>
+        </form>
+              
+                
+                
+        
+        </div>
+        <div id="textBox">
+            <form>
+                <label for="textFieldTitle">Text Field Title:</label>
+                <input type="text" id="textFieldTitle"> <br/>
+                <label for="initialValue">Initial Value:</label>
+                <input type="text" id="initialValue"><br/>
+                <button type="button" name="addTextButton">Add Text</button>
+            </form>
+        </div>
+        <div id="buttonBox">
+            <form>
+                <label for="buttonTitle">Button Title:</label>
+                <input type="text" id="buttonTitle"><br/>
+                <button type="button" name="addButtonButton">Add Button</button>
+            </form>
+        </div>
+       
+    </div>
+    <div id="clearButton">
+        <button type="button" name="clearAll">Clear All</button>
+
+    </div>
+    <div id="formArea">
+
+    </div>
+    
+</body>
+</html>
